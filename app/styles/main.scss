@@ -1,4 +1,8 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+@import "/bower_components/select2/select2.css";
+@import "/bower_components/dont_over_think_it/css/grid.css";
+
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
