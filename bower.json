@@ -1,0 +1,25 @@
+{
+  "name": "procore",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.2.0",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap-sass-official": "~3.2.0",
+    "angular-resource": "~1.2.0",
+    "angular-cookies": "~1.2.0",
+    "angular-sanitize": "~1.2.0",
+    "angular-animate": "~1.2.0",
+    "angular-touch": "~1.2.0",
+    "angular-route": "~1.2.0",
+    "dont_over_think_it": "https://github.com/adrianjonmiller/dont_over_think_it.git#~0.0.1",
+    "ionicons": "~1.5.2",
+    "angular-datatables": "~0.1.1",
+    "angular-ui-select2": "~0.0.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "angular-scenario": "~1.2.0"
+  },
+  "appPath": "app"
+}

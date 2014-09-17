@@ -1,0 +1,117 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body, html {
+  height: 100%;
+  background: #f5f5f5;
+}
+
+[role="main"] {
+  min-height: 100%;
+}
+
+#header {
+  height: 117px;
+  width: 100%;
+  background: 
+    url(/images/bg-header-right.png) no-repeat top right,
+    url(/images/bg-header-left.png) no-repeat top left;
+  background-size: auto 117px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+[role="main"] {
+  padding-top: 117px + 20px;
+  padding-bottom: 50px;
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 999;
+}
+
+#sidebar {
+  padding-right: 1em;
+  position: fixed;
+  top: 137px;
+  right: 0;
+}
+
+#footer {
+  background: 
+    url(/images/bg-footer-right.png) no-repeat top right,
+    url(/images/bg-footer-left.png) no-repeat top left;
+  background-size: auto 30px;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  z-index: 1001;
+}
+
+.main-block {
+  background: white;
+  margin-left: 1em;
+  box-shadow: 0 0 5px 2px rgba(black, 0.3);
+  padding: 1em;
+}
+
+ul.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
+
+.list-table {
+  > li {
+    border-bottom: solid thin lightgray;
+    
+    &:first-of-type {
+      border-top: solid thin lightgray;
+    }
+  }
+}
+
+.check-block {
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0 1em;
+
+  .checkmark:after {
+    content: '\f170';
+    font-family: 'Ionicons';
+    font-style: normal;
+    display: block;
+    float: left;
+    width: 30px;
+    color: lightgray;
+    font-size: 18px;
+  }
+
+  > input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked + .checkmark:after {
+    content: "\f120";
+    color: #00a79d;
+  }
+
+  &:hover {
+    background: #f3f3f3;
+  }
+}
+
+.deep-gutter {
+  padding-right: 50px;
+}
